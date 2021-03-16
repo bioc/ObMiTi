@@ -1,0 +1,31 @@
+citHeader("To cite ObMiTi in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "Caloric restriction reverses left ventricular hypertrophy through the regulation of cardiac iron homeostasis in impaired leptin signaling mice",
+  author   = "An, Hyeong Seok and Lee, Jong Youl and Choi, Eun Bee and Jeong" ,
+  journal  = "Scientific Reports",
+  year     = 2020,
+  volume   = 10 ,
+  number   =  1,
+  pages    = 7176,
+  url      = "10.1038/s41598-020-64201-2",
+  textVersion = paste(
+  )
+)
+
+citEntry(
+  entry    = "Article",
+  title    = "The Role of SHIP1 on Apoptosis and Autophagy in the Adipose Tissue of Obese Mice",
+  author   = "Jeong, Jae Hun and Choi, Eun Bee and Jang, Hye Min and Ahn, Yu" ,
+  journal  = "International Journal of Molecular Sciences",
+  year     = 2020,
+  volume   = 21 ,
+  number   =  19,
+  pages    = 7225,
+  url      = "https://www.mdpi.com/1422-0067/21/19/7225",
+  textVersion = paste(
+  )
+)
+
+

@@ -1,0 +1,30 @@
+Package: ObMiTi
+Type: Package
+Title: Ob/ob Mice Data on Normal and High Fat Diet
+Version: 0.99.0
+Year: 2021
+Authors@R: c(person("Omar", "Elashkar", email = "omar.i.elashkar@gmail.com",
+                  role = c("aut", "cre") , comment= c(ORCID = "0000-0002-5505-778X")),
+                  person("Mahmoud", "Ahmed", email = "mahmoud.s.fahmy@students.kasralainy.edu.eg",
+                  role = c("aut"), comment= c(ORCID = "0000-0002-4377-6541")))
+Description: The package provide RNA-seq count for 2 strains of mus musclus; Wild type and Ob/Ob. Each strain was divided into two groups, and each group received either chow diet or high fat diet. RNA expression was measured after 12 weeks in 7 tissues.
+License: GPL-3
+URL: https://github.com/OmarElAshkar/ObMiTi
+BugReports: https://github.com/OmarElAshkar/ObMiTi/issues
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Depends: R (>= 4.0),
+    SummarizedExperiment,
+    ExperimentHub
+Suggests: 
+    knitr,
+    rmarkdown,
+    BiocManager,
+    GenomicFeatures,
+    S4Vectors,
+    devtools,
+    testthat
+VignetteBuilder: knitr
+biocViews: ExperimentHub,
+                GEO,
+                RNASeqData
