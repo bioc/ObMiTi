@@ -127,7 +127,7 @@ library(SummarizedExperiment)
 ```
 
 
-```{r, eval = FALSE}
+```{r}
 # query package resources on ExperimentHub
 eh <- ExperimentHub()
 query(eh, "ObMiTi")
@@ -139,9 +139,7 @@ ob_counts <- query(eh, "ObMiTi")[[1]]
 ob_counts
 ```
 
-```{r, eval = T, include = F}
-ob_counts <-  readRDS(system.file("extdata", "ob_counts.rds", package="ObMiTi"))
-```
+
 The count matrix can be accessed using `assay`. Here we show the first five 
 entries of the first five samples.
 
