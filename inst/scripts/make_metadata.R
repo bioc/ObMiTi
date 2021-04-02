@@ -25,4 +25,4 @@ metadata <- data.frame(
                       #Location_Prefix='http://s3.amazonaws.com/annotation-contributor/ObMiTi/'
 )
 
-write.csv(metadata, "inst/extdata/metadata.csv", quote = T,   row.names =F)
+write.csv(metadata, "inst/extdata/metadata.csv", quote = TRUE,   row.names =FALSE)
