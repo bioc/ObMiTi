@@ -1,7 +1,7 @@
 Package: ObMiTi
 Type: Package
 Title: Ob/ob Mice Data on Normal and High Fat Diet
-Version: 0.99.3
+Version: 0.99.4
 Year: 2021
 Authors@R: c(person("Omar", "Elashkar", email = "omar.i.elashkar@gmail.com",
                   role = c("aut", "cre") , comment= c(ORCID = "0000-0002-5505-778X")),
