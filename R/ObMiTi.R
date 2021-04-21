@@ -20,7 +20,6 @@
 #' @import ExperimentHub
 #'
 #' @examples
-#' \dontrun{
 #' # load the data object
 #' library(ExperimentHub)
 #'
@@ -33,5 +32,4 @@
 #'
 #' # print object
 #' ob_counts
-#' }
 NULL
