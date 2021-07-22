@@ -7,7 +7,7 @@ A  MusMus Dataset of Ob/ob and WT mice on different diets.
 In this document, we introduce the purpose of `ObMiTi` package,
 its contents and its potential use cases. This package is a dataset of RNA-seq samples. The samples are of
 6 ob/ob mice and 6 wild type mice divided further into High 
-fat diet and normal diet. From each mice 7 tissues has been analyzed. The duration of dieting was 12 weeks.
+fat diet and normal diet. From each mice 7 tissues has been analyzed. The duration of dieting was 20 weeks.
 
 The package document the data collection, pre-processing and 
 processing. In addition to the documentation the package contains the scripts
